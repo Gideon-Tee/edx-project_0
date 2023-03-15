@@ -3,6 +3,9 @@
     <head>
         <title>Google Search</title>
         <style>
+            body {
+                padding: 15px;
+            }
             center {
             
                 margin: auto;
@@ -18,11 +21,18 @@
                 border: rgb(197, 194, 194) solid 1px;
                 width: 45%;
             }
+            input[type="text"]:focus {
+                outline: none;
+            }
 
             input[type="submit"] {
                 margin: 10px;
                 border: thin;
                 padding: 10px;
+                
+            }
+            #links {
+                float: right;
                 
             }
         </style>
@@ -32,8 +42,10 @@
             Google image url:: https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png
         -->
         <div id="links">
-            
-        </div>
+            <p><a href="google_image_search.html">Google image search</a></p>
+            <p><a href="google_advanced_search.html">Google advanced search</a></p>
+        </div><br>
+
         <center>        
             <img alt="google logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height="92" width="272">
 
