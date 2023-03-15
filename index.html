@@ -23,18 +23,24 @@
             }
             input[type="text"]:focus {
                 outline: none;
+                box-shadow: 20px;
+            }
+            input[type="text"]:hover {
+                box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19);
             }
 
             input[type="submit"] {
                 margin: 10px;
                 border: thin;
                 padding: 10px;
+                cursor: grab;
                 
             }
             #links {
                 float: right;
                 
             }
+    
         </style>
     </head>
     <body>
@@ -50,7 +56,7 @@
             <img alt="google logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" height="92" width="272">
 
             <form action="https://google.com/search">
-                <input type="text" name="q"><br>
+                <input type="text" name="q" title="search"><br>
                 <input type="submit" value="Google Search">
             </form>
         </center>       
