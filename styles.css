@@ -1,5 +1,5 @@
 body {
-  padding: 15px; }
+  padding: 10px; }
 
 center {
   margin: auto;
@@ -21,7 +21,7 @@ input[type="text"]:focus {
 input[type="text"]:hover {
   box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 8px 0 rgba(0, 0, 0, 0.19); }
 
-input[type="submit"], input[type="button"] {
+.button {
   margin: 10px;
   border: thin;
   padding: 10px;
